@@ -1,0 +1,1 @@
+This is the css folder, to keep project css style code.

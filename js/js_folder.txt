@@ -1,0 +1,1 @@
+This is the assets folder, to keep all project java script code.
