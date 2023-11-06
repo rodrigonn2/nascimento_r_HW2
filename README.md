@@ -1,7 +1,9 @@
 
-# nascimento_r_HW2 - Homework2 - Character Build
+# Homework2 - Character Build - KISS
 This is the repository for the Homework 2 "Character Build", using Kiss band as a reference for the page 
 and CSS building.
+
+### repository name: nascimento_r_HW2 
 
 ![KISS](/images/kiss_alive.jpg)
 ##### Kiss Alive image source
