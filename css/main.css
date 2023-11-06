@@ -33,14 +33,14 @@ header{
 }
 
 #band_nav{
-background-color:rgba(230, 105, 3, 0.932);
+background-color:rgba(230, 158, 3, 0.932);
 background-image: url(../images/kiss_concert.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-blend-mode: multiply;
 }
 
-.personas li{
+.personas li {
     height: 220px;
     margin: 10px 8px;
     background-color: black;
@@ -48,15 +48,108 @@ background-blend-mode: multiply;
     cursor: pointer;
     transition: box-shadow 1s ease;
     box-shadow: 0px 155px 0px 0px rgb(153, 72, 6) inset;
+    
 }
 
+/*Members (personas) colour*/
 
+#personas_paul {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 155px 0px 0px rgb(153, 6, 92) inset;
+    
+}
+
+#personas_gene {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 155px 0px 0px rgb(207, 142, 2) inset;
+    
+}
+
+#personas_ace {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 155px 0px 0px rgb(33, 2, 207) inset;
+    
+}
+
+#personas_peter {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 155px 0px 0px rgb(0, 167, 75) inset;
+    
+}
+
+#personas_eric {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 155px 0px 0px rgb(119, 49, 2) inset;
+    
+}
+
+#personas_vinnie {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 155px 0px 0px rgb(163, 199, 3) inset;
+    
+}
 
 /* 0 top, 0 right, 0 bottom, 0 left */
 /*mdn webdocs to see transitions*/
 
-.personas li:hover{
+/*.personas li:hover{
     box-shadow: 220px 0px 0px 0px rgb(153, 72, 6) inset;
+}*/
+
+/*member's color hover*/
+
+#personas_paul:hover{
+    box-shadow: 220px 0px 0px 0px rgb(153, 6, 92)  inset;
+}
+
+#personas_gene:hover{
+    box-shadow: 220px 0px 0px 0px rgb(207, 142, 2)  inset;
+}
+
+#personas_ace:hover{
+    box-shadow: 220px 0px 0px 0px rgb(33, 2, 207)  inset;
+}
+
+#personas_peter:hover{
+    box-shadow: 220px 0px 0px 0px rgb(0, 167, 75)  inset;
+}
+
+#personas_eric:hover{
+    box-shadow: 220px 0px 0px 0px rgb(119, 49, 2)  inset;
+}
+
+#personas_vinnie:hover{
+    box-shadow: 220px 0px 0px 0px rgb(163, 199, 3)  inset;
 }
 
 .personas li h5{
@@ -141,7 +234,9 @@ footer{
     top: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.938);
-    background-image: url(../images/paul_light.png);
+    background-image: url(../images/paul_stanley_details.png);
+    border: 2px solid rgb(153, 72, 6);
+    border-bottom-left-radius: 80px 80px;
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
@@ -151,19 +246,23 @@ footer{
 }
 
 #lightbox2{
-    background-image: url(../images/gene_light.png);
+    background-image: url(../images/gene_simmons_details.png);
+    border: 2px solid rgb(207, 142, 2);
+    border-bottom-left-radius: 80px 80px;
+    
+    
 }
 #lightbox3{
-    background-image: url(../images/ace_light.png);
+    background-image: url(../images/ace_frehley_details.png);
 }
 #lightbox4{
-    background-image: url(../images/peter_light.png);
+    background-image: url(../images/peter_criss_details.png);
 }
 #lightbox5{
-    background-image: url(../images/eric_light.png);
+    background-image: url(../images/eric_carr_details.png);
 }
 #lightbox6{
-    background-image: url(../images/gene_light.png);
+    background-image: url(../images/vinnie_vincent_details.png);
 }
 
 .lightbox_close{
@@ -179,9 +278,10 @@ footer{
 .lightbox_close:hover{
     opacity: 1.0;
     color: rgb(250, 114, 3);
-    transition: all 1s ease-out;
+    transition: all 2s ease-out;
 
 }
+
 .lightbox article {
     width: 55%;
     margin-left: 40%;
@@ -192,12 +292,51 @@ footer{
 text-align: left;
 
 }
+.lb_heading{
+    font-size: 30px;
+    color: rgb(250, 114, 3);
+}
 
+#lb_heading_paul{
+    font-size: 30px;
+    color: rgb(153, 6, 92) ;
+    text-align: left;
+}
+
+#lb_heading_gene{
+    font-size: 30px;
+    color: rgb(207, 142, 2) ;
+    text-align: left;
+}
+
+#lb_heading_ace{
+    font-size: 30px;
+    color: rgb(153, 6, 92) ;
+    text-align: left;
+}
+
+#lb_heading_peter{
+    font-size: 30px;
+    color: rgb(153, 6, 92) ;
+    text-align: left;
+}
+
+#lb_heading_eric{
+    font-size: 30px;
+    color: rgb(153, 6, 92) ;
+    text-align: left;
+}
+
+#lb_heading_vinnie{
+    font-size: 30px;
+    color: rgb(153, 6, 92) ;
+    text-align: left;
+}
 
 
 .lb_text{
     margin-left: 0px;
-    padding-top: 32px;
+    padding-top: 20px;
     line-height: 1.7 !important;
 }
 
