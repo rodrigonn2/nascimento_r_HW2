@@ -145,7 +145,7 @@ background-blend-mode: multiply;
 }
 
 #personas_eric:hover{
-    box-shadow: 220px 0px 0px 0px rgb(119, 49, 2)  inset;
+    box-shadow: 220px 0px 0px 0px rgb(211, 89, 8)  inset;
 }
 
 #personas_vinnie:hover{
@@ -235,7 +235,7 @@ footer{
     left: 0px;
     background-color: rgba(0, 0, 0, 0.938);
     background-image: url(../images/paul_stanley_details.png);
-    border: 2px solid rgb(153, 72, 6);
+    border: 2px solid  rgb(153, 6, 92);
     border-bottom-left-radius: 80px 80px;
     background-repeat: no-repeat;
     background-size: 55vh;
@@ -245,25 +245,37 @@ footer{
 
 }
 
-#lightbox2{
+#lightbox_open_gene{
     background-image: url(../images/gene_simmons_details.png);
     border: 2px solid rgb(207, 142, 2);
     border-bottom-left-radius: 80px 80px;
     
     
 }
-#lightbox3{
+
+#lightbox_open_ace{
     background-image: url(../images/ace_frehley_details.png);
+    border: 2px solid rgb(33, 2, 207);
+    border-bottom-left-radius: 80px 80px;
 }
-#lightbox4{
+
+#lightbox_open_peter{
     background-image: url(../images/peter_criss_details.png);
+    border: 2px solid rgb(0, 167, 75);
+    border-bottom-left-radius: 80px 80px;
 }
-#lightbox5{
+
+#lightbox_open_eric{
     background-image: url(../images/eric_carr_details.png);
+    border: 2px solid rgb(211, 89, 8);
+    border-bottom-left-radius: 80px 80px;
 }
-#lightbox6{
+#lightbox_open_vinnie{
     background-image: url(../images/vinnie_vincent_details.png);
+    border: 2px solid rgb(163, 199, 3);
+    border-bottom-left-radius: 80px 80px;
 }
+
 
 .lightbox_close{
     position: relative;
@@ -275,20 +287,57 @@ footer{
     font-weight: bolder;
 
 }
-.lightbox_close:hover{
+
+#lightbox_close_paul:hover{
     opacity: 1.0;
-    color: rgb(250, 114, 3);
+    color: rgb(153, 6, 92);
     transition: all 2s ease-out;
 
 }
 
-.lightbox article {
+#lightbox_close_gene:hover{
+    opacity: 1.0;
+    color: rgb(207, 142, 2);
+    transition: all 2s ease-out;
+
+}
+
+#lightbox_close_ace:hover{
+    opacity: 1.0;
+    color: rgb(33, 2, 207);
+    transition: all 2s ease-out;
+
+}
+
+#lightbox_close_peter:hover{
+    opacity: 1.0;
+    color: rgb(0, 167, 75);
+    transition: all 2s ease-out;
+
+}
+
+#lightbox_close_eric:hover{
+    opacity: 1.0;
+    color: rgb(211, 89, 8);
+    transition: all 2s ease-out;
+
+}
+
+#lightbox_close_vinnie:hover{
+    opacity: 1.0;
+    color: rgb(163, 199, 3);
+    transition: all 2s ease-out;
+
+}
+
+
+.lightbox article{
     width: 55%;
     margin-left: 40%;
     padding-top: 50px;
 }
 
-.lb_text, .lb_heading {
+.lb_text, .lb_heading{
 text-align: left;
 
 }
@@ -299,37 +348,37 @@ text-align: left;
 
 #lb_heading_paul{
     font-size: 30px;
-    color: rgb(153, 6, 92) ;
+    color: rgb(153, 6, 92);
     text-align: left;
 }
 
 #lb_heading_gene{
     font-size: 30px;
-    color: rgb(207, 142, 2) ;
+    color: rgb(207, 142, 2);
     text-align: left;
 }
 
 #lb_heading_ace{
     font-size: 30px;
-    color: rgb(153, 6, 92) ;
+    color: rgb(33, 2, 207) ;
     text-align: left;
 }
 
 #lb_heading_peter{
     font-size: 30px;
-    color: rgb(153, 6, 92) ;
+    color: rgb(0, 167, 75);
     text-align: left;
 }
 
 #lb_heading_eric{
     font-size: 30px;
-    color: rgb(153, 6, 92) ;
+    color: rgb(211, 89, 8);
     text-align: left;
 }
 
 #lb_heading_vinnie{
     font-size: 30px;
-    color: rgb(153, 6, 92) ;
+    color: rgb(163, 199, 3);
     text-align: left;
 }
 
