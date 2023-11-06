@@ -1,0 +1,206 @@
+html, body {
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+.hidden{
+    display: none;
+}
+/* main header rules */
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0px
+}
+
+#main-logo{
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+
+}
+.personas{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#band_nav{
+background-color:rgba(230, 105, 3, 0.932);
+background-image: url(../images/kiss_concert.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: multiply;
+}
+
+.personas li{
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 155px 0px 0px rgb(153, 72, 6) inset;
+}
+
+
+
+/* 0 top, 0 right, 0 bottom, 0 left */
+/*mdn webdocs to see transitions*/
+
+.personas li:hover{
+    box-shadow: 220px 0px 0px 0px rgb(153, 72, 6) inset;
+}
+
+.personas li h5{
+
+    color: #ffffff;
+    padding: 12px 8px; 
+    margin-left: 10%
+ }
+ 
+ .personas li a{
+     text-decoration: none;
+ }
+
+article, #instructions {
+    padding: 20px;
+}
+
+article h3, #instructions h3{
+font-size: 32 px;
+text-align: center;
+margin-bottom: 14px;
+
+}
+
+article p, #instructions p{
+    width: 80%;
+    font-size: 18 px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0px auto;
+
+    
+    }
+
+/**---Sprite--*/
+
+.sprite{
+    width: 150px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    background-image: url('../images/kiss_Sprite.png') ;
+}
+
+#gene{
+    background-position: -150px 0;
+
+}
+#ace{
+    background-position: -300px 0;
+}
+#peter{
+    background-position: -450px 0;
+}
+#eric{
+    background-position: -600px 0;
+}
+#vinnie{
+    background-position: -750px 0;
+}
+
+#paul:hover, #gene:hover, #ace:hover, #peter:hover, #eric:hover, #vinnie:hover {
+    background-position-y: -150px;
+}
+/*footer---*/
+footer{
+    color: #f8bc77;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.stickyfooter{
+    position: sticky;
+    top: 100%;
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+}
+
+.lightbox {
+    width: 100vw;
+    height: 95vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.938);
+    background-image: url(../images/paul_light.png);
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+    z-index: 5000;
+    display: none;
+
+}
+
+#lightbox2{
+    background-image: url(../images/gene_light.png);
+}
+#lightbox3{
+    background-image: url(../images/ace_light.png);
+}
+#lightbox4{
+    background-image: url(../images/peter_light.png);
+}
+#lightbox5{
+    background-image: url(../images/eric_light.png);
+}
+#lightbox6{
+    background-image: url(../images/gene_light.png);
+}
+
+.lightbox_close{
+    position: relative;
+    top: 20px;
+    left: 95%;
+    color: white;
+    font-size: 48px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.lightbox_close:hover{
+    opacity: 1.0;
+    color: rgb(250, 114, 3);
+    transition: all 1s ease-out;
+
+}
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading {
+text-align: left;
+
+}
+
+
+
+.lb_text{
+    margin-left: 0px;
+    padding-top: 32px;
+    line-height: 1.7 !important;
+}
+
+.lightbox:target{
+    display:block;
+}
